@@ -1,0 +1,11 @@
+
+# module load intel
+# module load impi 
+ 
+
+rm *.plt
+
+mpirun --oversubscribe -n 4 ./lookup
+
+
+
